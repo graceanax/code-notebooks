@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Moodle notebook](README.md)
+* [Bienvenida](README.md)
+* [Moodle](moodle.md)
