@@ -6,4 +6,6 @@
 * [Python](python/README.md)
   * [Python para Ciencia de Datos](python/python-para-ciencia-de-datos/README.md)
     * [Anaconda](python/python-para-ciencia-de-datos/anaconda.md)
-* [Dev path](dev-path.md)
+* [Dev path](dev-path/README.md)
+  * [Si es relacionado a datos](dev-path/si-es-relacionado-a-datos.md)
+  * [Si es WordPress + PHP](dev-path/si-es-wordpress-+-php.md)
