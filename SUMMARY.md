@@ -6,3 +6,4 @@
 * [Python](python/README.md)
   * [Python para Ciencia de Datos](python/python-para-ciencia-de-datos/README.md)
     * [Anaconda](python/python-para-ciencia-de-datos/anaconda.md)
+* [Dev path](dev-path.md)
