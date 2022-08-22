@@ -9,7 +9,7 @@
 * [Dev path](dev-path/README.md)
   * [Si es relacionado a datos](dev-path/si-es-relacionado-a-datos.md)
   * [Si es WordPress + PHP](dev-path/si-es-wordpress-+-php.md)
-* [PHP](php/README.md)
+* [PHP](php.md)
   * [Instalación con wsl](php/instalacion-con-wsl.md)
   * [Sintaxis básica](php/sintaxis-basica.md)
 * [Manuales varios](manuales-varios/README.md)
