@@ -11,6 +11,8 @@ description: https://docs.microsoft.com/en-us/windows/wsl/install
 3. Ir a power shell
 4. Pegar este comando\
    `wsl --install`
+5. `Abrir la aplicación de terminal de windows`
+6. `click derecho, configurar, y cambiar el perfil predeterminado`&#x20;
 
 ### Comandos interesantes
 
