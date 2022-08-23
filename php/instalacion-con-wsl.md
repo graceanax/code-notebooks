@@ -18,4 +18,5 @@ habilitar o desabilitar versiones de php
 ```
 sudo a2enmod php8.0
 sudo a2dismod php8.0
+// y reiniciar apache
 ```
