@@ -20,3 +20,9 @@ sudo a2enmod php8.0
 sudo a2dismod php8.0
 // y reiniciar apache
 ```
+
+Si no funciona el apache localhost
+
+```
+sudo service apache2 --full-restart
+```
