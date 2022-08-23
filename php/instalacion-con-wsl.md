@@ -27,7 +27,7 @@ Si no funciona el apache localhost
 sudo service apache2 --full-restart
 ```
 
-Configuración adicional para mostrar errores
+### Configuración adicional para mostrar errores
 
 `sudo nano /etc/php/8.0/apache2/php.ini`
 
