@@ -37,3 +37,38 @@ Su código nunca debe verificar qué rol tiene el usuario. Nunca debe diseñar e
 En su lugar, piense en un buen conjunto de capacidades que describan todas las funciones proporcionadas por el complemento. Declarar estas capacidades en el archivo `db/access.php` de su complemento junto con valores predeterminados sensibles para roles de arquetipo. Luego verifique si el usuario tiene la capacidad dada a través de los métodos `has_capability()` y `require_capability()`.
 
 [Ver más sobre capacidades](https://docs.moodle.org/dev/Access\_API)
+
+### Requerir que los usuarios inicien sesión
+
+Dentro de nuestro complemento agregar el siguiente código luego de `$PAGE->set_heading(get_string('pluginname', 'local_greetings'));`
+
+```php
+require_login();
+```
+
+Ahora, evitemos que los usuarios invitados también accedan al complemento. Agregar el siguiente código debajo de `require_login()`;
+
+```php
+if (isguestuser()) {
+    throw new moodle_exception('noguest');
+}
+```
+
+### Sesskey protection <a href="#yui_3_17_2_1_1661956915963_45" id="yui_3_17_2_1_1661956915963_45"></a>
+
+Incluso si el complemento verifica correctamente la autenticación y la autorización ahora, aún se debe agregar una protección esencial: sesskey.
+
+Dentro del archivo index del complemento, antes del código que permite eliminar post (si eso permite el complemento) `if ($action == 'del') {`, agregar lo siguiente:
+
+`require_sesskey();`
+
+Al ingresar al complemento e intentar eleminar, indicará que requiere sesskey. Dentro de index se debe actualizar el link para eliminar pasandole el parámetro del sesskey
+
+`'sesskey' => sesskey()`
+
+{% hint style="info" %}
+La API de formularios de Moodle pasa automáticamente la clave de sesión del usuario y la verifica cuando se envían los datos del formulario. Por lo tanto, no es necesario llamar require\_sesskey() cuando se utiliza la API de formularios para procesar la entrada del usuario.
+{% endhint %}
+
+s
+
