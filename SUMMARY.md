@@ -15,3 +15,6 @@
 * [Manuales varios](manuales-varios/README.md)
   * [WSL - Windows Subsitem for Linux](manuales-varios/wsl-windows-subsitem-for-linux.md)
   * [Vtiger](manuales-varios/vtiger.md)
+* [VIM](vim/README.md)
+  * [Archivo de configuración](vim/archivo-de-configuracion.md)
+  * [Comandos](vim/comandos.md)
