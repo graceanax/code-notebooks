@@ -13,6 +13,8 @@
 * [PHP](php.md)
   * [Instalación con wsl](php/instalacion-con-wsl.md)
   * [Sintaxis básica](php/sintaxis-basica.md)
+  * [Variables y constantes](php/variables-y-constantes.md)
+  * [Casting](php/casting.md)
 * [Manuales varios](manuales-varios/README.md)
   * [WSL - Windows Subsitem for Linux](manuales-varios/wsl-windows-subsitem-for-linux.md)
   * [Vtiger](manuales-varios/vtiger.md)
