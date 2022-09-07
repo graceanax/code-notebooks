@@ -9,14 +9,25 @@
 * Quitar los números de cada línea `:set nu!`
 * Para modificar el color de la sintaxis `:set background=dark`
 * Cortar una línea `dd`
+* Cortar una palabra `dw`
 * Cortar una cantidad de líneas que yo quiera `d<num>d`, ejemplo `d2d`
 * Pegar la línea `p` (pega la línea debajo de donde estoy parada)
 * Copiar línea `yy`
 * Copiar una cantidad de líneas que yo quiera `y<num>y`, ejemplo `y2y`
 * Agregar una línea nueva debajo de donde estamos `o`
+* Agregar una línea nueva arriba O, o mayúscula
 * deshacher `u`
 * rehacer `ctrl+r`
 * Buscar un texto usamos el slash `/palabra` para ir a la siguiente palabra `n` y para ir a la anterior `shift+n`
 * Para ir al inicio del archivo `gg`
 * Para ir al final del archivo `G`
 * Entrar al modo visual `v`, esto puede ayudar para seleccionar texto&#x20;
+
+### Formas de moverse
+
+* k - arriba
+* j - abajo
+* h - izquierda
+* l - derecha
+* w - moverme entre palabras
+* b - moverse entre palabras hacia atrás
