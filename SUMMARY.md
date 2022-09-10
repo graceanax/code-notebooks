@@ -2,6 +2,7 @@
 
 * [Bienvenida](README.md)
 * [Moodle](moodle/README.md)
+  * [Informes configurables](moodle/informes-configurables.md)
   * [Elementos básicos de acceso y seguridad de Moodle](moodle/elementos-basicos-de-acceso-y-seguridad-de-moodle.md)
   * [Ejemplo de consulta moodle](moodle/ejemplo-de-consulta-moodle.md)
 * [Python](python/README.md)
