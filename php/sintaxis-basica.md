@@ -15,3 +15,14 @@ Si necesitas usar variables usa comillas dobles, ya que puede leer variables den
 ```php
 echo "Yo me llamo $nombre $apellido \n"
 ```
+
+### Debugging y comentarios
+
+Para hacer debugging podemos utilizar dos formas:v
+
+```php
+// da más información
+var_dump( $variable );
+// se ve más legible
+print_r( $variable );
+```
