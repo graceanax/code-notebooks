@@ -38,3 +38,56 @@ Nos ayudan a comparar dos o más valores
 | `<=`  | _Menor o igual que_ |
 | `<=>` | _Nave espacial_     |
 | `??`  | _Fusión de null_    |
+
+#### Operador nave espacial
+
+El operador nave espacial se emplea para comparar dos expresiones. Devuelve -1, 0 o 1 cuando $a es respectivamente menor, igual, o mayor que $b.
+
+```php
+// Números enteros
+echo 1 <=> 1; // 0
+echo 1 <=> 2; // -1
+echo 2 <=> 1; // 1
+
+// Números decimales
+echo 1.5 <=> 1.5; // 0
+echo 1.5 <=> 2.5; // -1
+echo 2.5 <=> 1.5; // 1
+ 
+// Cadenas de caracteres
+echo "a" <=> "a"; // 0
+echo "a" <=> "b"; // -1
+echo "b" <=> "a"; // 1
+```
+
+#### Fusión de null
+
+```php
+// Si la edad de juanito no esta definida, dame la de pepito
+$Edad_de_pepito = 23;
+echo $Edad_de_juanito ?? $Edad_de_pepito;
+```
+
+### Otros operadores
+
+| Operador | Descripción      |
+| -------- | ---------------- |
+| `=`      | _Asignación_     |
+| `+=`     | _Incremento_     |
+| `++`     | _Incremento_     |
+| `-=`     | _Decremento_     |
+| `--`     | _Decremento_     |
+| `*=`     | _Multiplicación_ |
+| `/=`     | _División_       |
+| `.=`     | _Concatenación_  |
+
+### Precedencia de operadores
+
+¿Primero suma y luego asigna? o ¿Primero asigna y luego suma
+
+```php
+$contador = 0;
+$nuevo_valor = $contador++;
+```
+
+Primero asigna y luego suma
