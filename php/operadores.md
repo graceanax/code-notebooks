@@ -91,3 +91,32 @@ $nuevo_valor = $contador++;
 ```
 
 Primero asigna y luego suma
+
+[https://www.php.net/manual/es/language.operators.precedence.php](https://www.php.net/manual/es/language.operators.precedence.php)
+
+#### Problema de precedencia
+
+```php
+$michis4patas = true;
+$michis_programan = false;
+
+$resultado = $michis4patas and $michis_programan;
+var_dump($resultado);
+>> devuelve true por la precedencia, primero asigna $michis4patas al resultado
+>> Para resolver usamos paréntesis
+
+$resultado = ($michis4patas and $michis_programan);
+```
+
+### Ejercicio
+
+```php
+$segundos = readline("Ingresar el tiempo en segundos: ");
+$horas = (int) ($segundos / 3600);
+$segundos = (int) ($segundos % 3600);
+$minutos = (int) ($segundos / 60);
+$segundos = (int) ($segundos % 60);
+
+echo "Son $horas horas, $minutos minutos y $segundos segundos"; 
+echo "\n";php
+```
