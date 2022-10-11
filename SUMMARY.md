@@ -23,3 +23,5 @@
 * [VIM](vim/README.md)
   * [Archivo de configuración](vim/archivo-de-configuracion.md)
   * [Comandos](vim/comandos.md)
+* [WordPress](wordpress/README.md)
+  * [Creación de plugins](wordpress/creacion-de-plugins.md)
