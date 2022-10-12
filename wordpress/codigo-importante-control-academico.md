@@ -39,3 +39,9 @@ foreach ( $result['avail_roles'] as $role => $count ) {
   }
   echo '</ul>';
 ```
+
+{% embed url="https://www.sitepoint.com/using-wp-list-table-to-create-wordpress-admin-tables/" %}
+
+{% embed url="https://clearintelligence.mx/wp-list-table-una-guia-paso-a-paso/" %}
+
+{% embed url="https://supporthost.com/wp-list-table-tutorial/#connect_table_to_data_and_columns" %}
