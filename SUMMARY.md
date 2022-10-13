@@ -24,5 +24,6 @@
   * [Archivo de configuración](vim/archivo-de-configuracion.md)
   * [Comandos](vim/comandos.md)
 * [WordPress](wordpress/README.md)
+  * [Consulta para control académico](wordpress/consulta-para-control-academico.md)
   * [Código importante control académico](wordpress/codigo-importante-control-academico.md)
   * [Creación de plugins](wordpress/creacion-de-plugins.md)
