@@ -3,6 +3,8 @@
 ```sql
 SELECT ecampus_users.user_login, 
 ecampus_users.user_email, ecampus_users.display_name,
+lws_user.activity_status,
+lws_user.activity_type,
 eposts.post_title, DATE_FORMAT(FROM_UNIXTIME(lws_user.activity_completed),'%d %M %Y')AS Fecha
 FROM ecampusnbs_users as ecampus_users
 INNER JOIN ecampusnbs_learndash_user_activity as lws_user
@@ -27,5 +29,5 @@ usermeta.meta_value LIKE '%subscriber%'
 OR usermeta.meta_value LIKE '%customer%'
 OR usermeta.meta_value LIKE '%libre%')
 GROUP BY ecampus_users.ID
-ORDER BY Fecha asc;quer
+ORDER BY Fecha asc;
 ```
