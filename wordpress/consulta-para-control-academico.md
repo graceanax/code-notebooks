@@ -1,5 +1,7 @@
 # Consulta para control académico
 
+11 días inactivo
+
 ```sql
 SELECT ecampus_users.user_login, 
 ecampus_users.user_email, ecampus_users.display_name,
