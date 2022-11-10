@@ -45,3 +45,9 @@ foreach ( $result['avail_roles'] as $role => $count ) {
 {% embed url="https://clearintelligence.mx/wp-list-table-una-guia-paso-a-paso/" %}
 
 {% embed url="https://supporthost.com/wp-list-table-tutorial/#connect_table_to_data_and_columns" %}
+
+Otros sin revisar
+
+{% embed url="https://www.smashingmagazine.com/2011/11/native-admin-tables-wordpress/" %}
+
+{% embed url="https://www.folkstalk.com/2022/10/how-to-untab-highlighed-code-in-vscode-with-code-examples.html" %}
