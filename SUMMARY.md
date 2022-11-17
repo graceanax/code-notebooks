@@ -17,6 +17,8 @@
   * [Variables y constantes](php/variables-y-constantes.md)
   * [Casting](php/casting.md)
   * [Operadores](php/operadores.md)
+  * [Arreglos](php/arreglos.md)
+* [Page 1](page-1.md)
 * [Manuales varios](manuales-varios/README.md)
   * [WSL - Windows Subsitem for Linux](manuales-varios/wsl-windows-subsitem-for-linux.md)
   * [Vtiger](manuales-varios/vtiger.md)
