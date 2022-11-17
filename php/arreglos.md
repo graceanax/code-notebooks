@@ -23,11 +23,14 @@ echo "La edad de Carlos es {$edades['Carlos']}"
 
 // Opción 2
 $personas= array(
-    "Carlos" => array(=
+    "Carlos" => array(
         "edad" => 20,
         "apellido" => "Santana"
-        ),
-    "Ana" => 31,
+    ),
+    "Ana" => array(
+        "edad" => 31,
+        "apellido" => "Pérez"
+    ),
 );
-echo "La edad de Carlos es {$edades['Carlos']}"</code></pre>
+echo "La edad de Carlos es {$personas['Carlos']['edad']}";</code></pre>
 
