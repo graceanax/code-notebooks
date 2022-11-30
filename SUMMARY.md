@@ -29,3 +29,4 @@
   * [Consulta para control académico](wordpress/consulta-para-control-academico.md)
   * [Código importante control académico](wordpress/codigo-importante-control-academico.md)
   * [Creación de plugins](wordpress/creacion-de-plugins.md)
+* [Utilidades](utilidades.md)
